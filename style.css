@@ -1,0 +1,28 @@
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 10px;
+    background: white;
+    color: darkblue;
+}
+
+.items {
+    padding-left: 35px;
+    padding-right: 25px;
+    display: inline;
+    font-family: cursive;
+    font-size: 21px;
+}
+
+.items:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
